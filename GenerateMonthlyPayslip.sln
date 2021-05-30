@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payslip.API", "Payslip.API\Payslip.API.csproj", "{12764B2D-BFAF-4025-A0EA-AA6C0D937CDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payslip.API.Tests", "Payslip.API.Tests\Payslip.API.Tests.csproj", "{9FC53D5A-43E9-468C-9A6F-DB7E1B282954}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12764B2D-BFAF-4025-A0EA-AA6C0D937CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12764B2D-BFAF-4025-A0EA-AA6C0D937CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12764B2D-BFAF-4025-A0EA-AA6C0D937CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12764B2D-BFAF-4025-A0EA-AA6C0D937CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC53D5A-43E9-468C-9A6F-DB7E1B282954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC53D5A-43E9-468C-9A6F-DB7E1B282954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC53D5A-43E9-468C-9A6F-DB7E1B282954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC53D5A-43E9-468C-9A6F-DB7E1B282954}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {239425D1-5732-445D-B676-1444E7332D8E}
+	EndGlobalSection
+EndGlobal
