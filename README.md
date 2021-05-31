@@ -64,7 +64,7 @@ TaxRate: Id, FinancialYearStart, FinancialYearEnd, TaxRateLevelId, Rate
 
 #### 3.1.2 Design Pattern 
 
-##### 1)  Strategy Pattern:
+#### 1)  Strategy Pattern:
 
 For each TaxRateType, there is a strategy to compute the monthly payslip. Currently, only resident tax rate type strategy is implemented. Through this way, it is easy to extend the code for other tax rate types without changing current code (SOLID principle: open-close principle). 
 
@@ -74,7 +74,7 @@ Payslip.API\Strategies\BaseTaxCalculateStrategy.cs
 
 Payslip.API\Strategies\ResidentIncomeTaxCalculateStrategy.cs
 
-##### 2)  Chain Of Responsibility Pattern:
+#### 2)  Chain Of Responsibility Pattern:
 
 For each tax rate level of a given tax rate type, there is a specific class to compute the tax within this tax rate level. In this way, it is easy to extend the code if there are more tax rate levels in the future, without changing current code. 
 
@@ -92,7 +92,7 @@ Payslip.API\ChainOfResponsibility\ResidentIncomeTaxCalculation\TaxRateLevelFourT
 
 Payslip.API\ChainOfResponsibility\ResidentIncomeTaxCalculation\TaxRateLevelFiveTaxCalculation.cs
 
-##### 3)  Singleton Pattern:
+#### 3)  Singleton Pattern:
 
 All those tax calculation classes are implemented using Singleton Pattern. 
 
