@@ -1,6 +1,5 @@
 # GenerateMonthlyPayslip Solution ReadMe
 ## 1. About:
-
 	A console application that given employee annual salary details, outputs a monthly pay slip. 
 
 ## 2. How: 
@@ -14,19 +13,15 @@ This Solution was developed in Visual Studio 2019 with .Net Core 5.0, Entity Fra
 There are 4 projects in the solution:
 
 #### Payslip.API
-
 	The REST Web API service project. 
 	
 #### Payslip.API.Tests 
-
 	The unit test for Payslip.API
 	
 #### GenerateMonthlyPayslip 
-
 	The client console project which calls the API to get the monthly payslip. 
 	
 #### GenerateMonthlyPayslip.Tests 
-
 	The unit test for GenerateMonthlyPayslip.
 
 ### 2.3 How to run
