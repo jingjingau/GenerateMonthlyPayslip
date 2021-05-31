@@ -62,7 +62,7 @@ TaxRateLevel: Id, TaxRateTypeInternal, Level, TaxableIncomeLowerBound, TaxableIn
 
 TaxRate: Id, FinancialYearStart, FinancialYearEnd, TaxRateLevelId, Rate
 
-#### 3.1.2 Design Pattern 
+#### 3.1.2 Design Patterns 
 
 #### 1)  Strategy Pattern:
 
