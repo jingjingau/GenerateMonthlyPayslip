@@ -1,8 +1,8 @@
 # GenerateMonthlyPayslip Solution ReadMe
-## 1. About:
+## 1. About
 	A console application that given employee annual salary details, outputs a monthly pay slip. 
 
-## 2. How: 
+## 2. How
 
 ### 2.1 Technologies
 
