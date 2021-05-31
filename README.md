@@ -26,14 +26,14 @@ There are 4 projects in the solution:
 
 ### 2.3 How to run
 
-#### a. When you run the Payslip.API project for the first time, database will be created and some sample data will be inserted into the database automatically by code through the code first process.
+#### A.  When you run the Payslip.API project for the first time, database will be created and some sample data will be inserted into the database automatically by code through the code first process.
 
-#### b. The database connection settings is located at the following position. You could change it according to your local environment. 
+#### B.  The database connection settings is located at the following position. You could change it according to your local environment. 
     Payslip.API\appsettings.json
 	
-#### c. Run the Payslip.API project and GenerateMonthlyPayslip project at the same time. Test it from the client console. 
+#### C.  Run the Payslip.API project and GenerateMonthlyPayslip project at the same time. Test it from the client console. 
 
-#### d. Test GenerateMonthlyPayslipAPI using Postman or Swagger:
+#### D.  Test Payslip.API using Postman or Swagger:
 	postman endpoint: 
 	               Post: https://localhost:44317/Payslip/MonthlyPayslip
 				Body: { "taxableIncome": 60000,  "taxRateType": 1 }
