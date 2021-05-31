@@ -183,7 +183,7 @@ Currently only: TaxRateType=1 (ResidentTaxRate) is implemented.
 
 ### 4.2 Financial Year
 
-Each financial year has different tax rates for each tax rate type. Currently, the tax calculation is only calculated according to the current financial year's tax rates giving the tax rate type. 
+Each financial year has different tax rates for each tax rate type. Currently, the tax is only calculated according to the current financial year's tax rates giving the tax rate type. 
 
 ### 4.3 API Authentication and Authorization
 
