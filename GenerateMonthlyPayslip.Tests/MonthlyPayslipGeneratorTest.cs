@@ -31,7 +31,7 @@ namespace GenerateMonthlyPayslip.Tests
                 TaxRateType = GenerateMonthlyPayslip.Enums.TaxRateType.ResidentTaxRate,
             };
 
-            string url = "Payslip";
+            string url = "Payslip/MonthlyPayslip";
             mock.Setup(r => r.PostAsync(url, inputModel)).ReturnsAsync(expectedMonthlyPaySlip);
 
             // act

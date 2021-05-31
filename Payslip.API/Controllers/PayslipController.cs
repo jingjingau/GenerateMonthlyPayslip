@@ -29,6 +29,7 @@ namespace Payslip.API.Controllers
         /// <param name="model">The parameters for getting the monthly pay slip, including taxable income and tax rate type. </param>
         /// <returns>The monthly pay slip</returns>
         [HttpPost]
+        [Route("MonthlyPayslip")]
         public IActionResult MonthlyPaySlip([FromBody]RequestMonthlyPayslipDto model)
         {
             if (model.TaxRateType != Enums.TaxRateType.ResidentTaxRate)
