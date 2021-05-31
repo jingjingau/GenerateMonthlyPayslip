@@ -71,6 +71,7 @@ For each TaxRateType, there is a strategy to compute the monthly payslip. Curren
 Please look at the following files:
 
 Payslip.API\Strategies\BaseTaxCalculateStrategy.cs
+
 Payslip.API\Strategies\ResidentIncomeTaxCalculateStrategy.cs
 
 ##### 2)  Chain Of Responsibility Pattern:
@@ -80,10 +81,15 @@ For each tax rate level of a given tax rate type, there is a specific class to c
 Please look at the following files:
 
 Payslip.API\ChainOfResponsibility\BaseTaxRateCalculation.cs
+
 Payslip.API\ChainOfResponsibility\ResidentIncomeTaxCalculation\TaxRateLevelOneTaxCalculation.cs
+
 Payslip.API\ChainOfResponsibility\ResidentIncomeTaxCalculation\TaxRateLevelTwoTaxCalculation.cs
+
 Payslip.API\ChainOfResponsibility\ResidentIncomeTaxCalculation\TaxRateLevelThreeTaxCalculation.cs
+
 Payslip.API\ChainOfResponsibility\ResidentIncomeTaxCalculation\TaxRateLevelFourTaxCalculation.cs
+
 Payslip.API\ChainOfResponsibility\ResidentIncomeTaxCalculation\TaxRateLevelFiveTaxCalculation.cs
 
 ##### 3)  Singleton Pattern:
