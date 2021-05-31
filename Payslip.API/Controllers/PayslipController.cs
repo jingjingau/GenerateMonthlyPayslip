@@ -30,7 +30,7 @@ namespace Payslip.API.Controllers
         /// <returns>The monthly pay slip</returns>
         [HttpPost]
         [Route("MonthlyPayslip")]
-        public IActionResult MonthlyPaySlip([FromBody]RequestMonthlyPayslipDto model)
+        public IActionResult MonthlyPayslip([FromBody]RequestMonthlyPayslipDto model)
         {
             if (model.TaxRateType != Enums.TaxRateType.ResidentTaxRate)
             {
