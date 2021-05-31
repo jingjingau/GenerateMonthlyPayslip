@@ -66,7 +66,7 @@ TaxRate: Id, FinancialYearStart, FinancialYearEnd, TaxRateLevelId, Rate
 
 ##### 1)  Strategy Pattern:
 
-For each TaxRateType, there is strategy to compute the monthly payslip. Currently, only resident tax rate type strategy is implemented. Through this way, it is easy to extend the code for other tax rate types without changing current code (SOLID principle: open-close principle). 
+For each TaxRateType, there is a strategy to compute the monthly payslip. Currently, only resident tax rate type strategy is implemented. Through this way, it is easy to extend the code for other tax rate types without changing current code (SOLID principle: open-close principle). 
 
 Please look at the following files:
 
