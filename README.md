@@ -110,7 +110,7 @@ The API controller supplies one API end point:
 
         [HttpPost]
         [Route("MonthlyPayslip")]
-        public IActionResult MonthlyPaySlip([FromBody]RequestMonthlyPayslipDto model)
+        public IActionResult MonthlyPayslip([FromBody]RequestMonthlyPayslipDto model)
 
 Please look at the file: 
 
