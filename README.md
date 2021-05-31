@@ -12,10 +12,22 @@ This Solution was developed in Visual Studio 2019 with .Net Core 5.0, Entity Fra
 ### 2.2 Projects
 
 There are 4 projects in the solution:
-#### Payslip.API: The REST Web API service project. 
-#### Payslip.API.Tests: The unit test for Payslip.API
-#### GenerateMonthlyPayslip: The client console project which calls the API to get the monthly pay slip. 
-#### GenerateMonthlyPayslip.Tests The unit test for GenerateMonthlyPayslip.
+
+#### Payslip.API
+
+	The REST Web API service project. 
+	
+#### Payslip.API.Tests 
+
+	The unit test for Payslip.API
+	
+#### GenerateMonthlyPayslip 
+
+	The client console project which calls the API to get the monthly payslip. 
+	
+#### GenerateMonthlyPayslip.Tests 
+
+	The unit test for GenerateMonthlyPayslip.
 
 ### 2.3 How to run
 
