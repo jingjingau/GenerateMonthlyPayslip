@@ -18,14 +18,14 @@ namespace GenerateMonthlyPayslip.Tests
             // arrange
             var mock = new Mock<MonthlyPayslipServiceAgent>("https://localhost:44351/");
 
-            MonthlyPayslip expectedMonthlyPaySlip = new MonthlyPayslip
+            MonthlyPayslip expectedMonthlyPaySlip = new()
             {
                 GrossMonthlyIncome = 5000,
                 MonthlyIncomeTax = 500,
                 NetMonthlyIncome = 4500
             };
 
-            MonthlyPayslipRequestModel inputModel = new MonthlyPayslipRequestModel
+            MonthlyPayslipRequestModel inputModel = new()
             {
                 TaxableIncome = 60000,
                 TaxRateType = GenerateMonthlyPayslip.Enums.TaxRateType.ResidentTaxRate,
@@ -53,7 +53,7 @@ namespace GenerateMonthlyPayslip.Tests
             // arrange
             var mock = new Mock<MonthlyPayslipServiceAgent>("https://localhost:44351/");
 
-            MonthlyPayslipRequestModel inputModel = new MonthlyPayslipRequestModel
+            MonthlyPayslipRequestModel inputModel = new()
             {
                 TaxableIncome = -10,
                 TaxRateType = GenerateMonthlyPayslip.Enums.TaxRateType.ResidentTaxRate,
@@ -76,7 +76,7 @@ namespace GenerateMonthlyPayslip.Tests
             // arrange
             var mock = new Mock<MonthlyPayslipServiceAgent>("https://localhost:44351/");
 
-            MonthlyPayslipRequestModel inputModel = new MonthlyPayslipRequestModel
+            MonthlyPayslipRequestModel inputModel = new()
             {
                 TaxableIncome = -10,
                 TaxRateType = GenerateMonthlyPayslip.Enums.TaxRateType.ForeignResidentTaxRate,

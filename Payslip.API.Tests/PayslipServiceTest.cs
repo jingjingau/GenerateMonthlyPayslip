@@ -10,7 +10,7 @@ namespace Payslip.API.Tests
 {
     public class PayslipServiceTest
     {
-        PayslipService_Fake _service;
+        readonly PayslipService_Fake _service;
 
         public PayslipServiceTest()
         {
@@ -25,7 +25,7 @@ namespace Payslip.API.Tests
             TaxRateType taxRateType = TaxRateType.ResidentTaxRate;
 
             // Act      
-            Action act = () => _service.GenerateMonthlyPayslip(taxableIncome, taxRateType);
+            void act() => _service.GenerateMonthlyPayslip(taxableIncome, taxRateType);
 
             // Assert
             Exception exception = Assert.Throws<Exception>(act);
@@ -40,7 +40,7 @@ namespace Payslip.API.Tests
             TaxRateType taxRateType = TaxRateType.ForeignResidentTaxRate;
 
             // Act      
-            Action act = () => _service.GenerateMonthlyPayslip(taxableIncome, taxRateType);
+            void act() => _service.GenerateMonthlyPayslip(taxableIncome, taxRateType);
 
             // Assert
             Exception exception = Assert.Throws<Exception>(act);

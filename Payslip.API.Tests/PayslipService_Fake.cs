@@ -14,8 +14,8 @@ namespace Payslip.API.Tests
 {
     public class PayslipService_Fake : IPayslipService
     {
-        protected List<TaxRateLevel> taxRateLevelsDataInDb { get; set; }
-        protected List<TaxRate> taxRatesDataInDb { get; set; }
+        protected List<TaxRateLevel> taxRateLevelsDataInDb;
+        protected List<TaxRate> taxRatesDataInDb;
 
         public PayslipService_Fake()
         {
