@@ -158,7 +158,7 @@ GenerateMonthlyPayslip\MonthlyPayslipGenerator.cs
 
 #### 3.2.4 API Service Agent: 
 
-Call the API to get the monthly pay slip. 
+Call the API to get the monthly payslip. 
 
 GenerateMonthlyPayslip\ServiceAgents\MonthlyPayslipServiceAgent.cs
 
